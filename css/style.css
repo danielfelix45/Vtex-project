@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 80%;
+  margin: auto
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+  padding: 1rem;
+  background: #efefef;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #efefef;
+}
+
+nav a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav img {
+  border: 2px solid #000;
+  border-radius: 3px;
+  height: 100%;
+  width: 3.5rem;
+}
+
+#product-container {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #efefef;
+}
+
+.product-content {
+  display: grid;
+  text-align:center;
+  width: 12rem;
+  height: 18.75rem;
+  background: #fff;
+  border-radius: .75rem;
+  padding: .75rem;
+
+  position:relative;
+}
+
+.product-content:hover {
+  top:-2px;
+  box-shadow:0 2px 2px #666
+}
+
+.product-content img {
+  width: 12.5rem;
+  height: auto;
+}
+
+#form-container {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background: #efefef;
+}
+
+#form-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
+
+#form label {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#form input {
+  width: 30vw;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding: .75rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#form .button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: .5rem 9rem;
+  background: rgb(191, 29, 29);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+footer {
+  height: 6.25rem;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #efefef;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

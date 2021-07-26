@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vtex Academy</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- HEADER-LOGO -->
+  <header>
+    <nav>
+      <a href="#">Produtos Barbershop</a>
+      <a href="#"><img src="./images/icon-menu.png" alt="icone-menu"></a>
+    </nav>
+  </header>
+
+  <!-- SECTION-PRODUCT -->
+  <section id="product-container">
+      <div id="product1" class="product-content">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_635535-MLB42183366569_062020-O.webp" alt="Kit Máquina de corte e acabamento" />
+        <p>Wahl Kit Completo Deluxe</p>
+        <h6>R$321.99</h6>
+        <button onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product2" class="product-content">
+        <img src="https://d3bkgvrq5dqryp.cloudfront.net/Custom/Content/Products/29/20/2920_product-00079793_z22_637559960863464157" alt="Máquina de corte" />
+        <p>Wahl Professional Super Taper</p>
+        <h6>R$649.55</h6>
+        <button onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product3" class="product-content">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_893442-MLB44124622941_112020-O.webp" alt="Produtos para barbearia" />
+        <p>Kit Barba Profissional Completo Produtos De Barbearia Retro</p>
+        <h6>R$197.00</h6>
+        <button onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product4" class="product-content">
+        <img src="http://biocidegroup.com/wp-content/uploads/2020/01/tool-3134809_1920-1024x768.jpg" alt="Kit barbeiro" />
+        <p>Kit barba</p>
+        <h6>R$300,00</h6>
+        <button  onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product5" class="product-content">
+        <img src="https://i.pinimg.com/originals/f4/27/bd/f427bd58c891aae68cb2124dfb731f60.jpg" alt="Kit tesoura barbeiro" />
+        <p>Tesoura barbeiro especial 6pol</p>
+        <h6>R$150.99</h6>
+        <button  onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product6" class="product-content">
+        <img src="https://ae01.alicdn.com/kf/Ha4987f29e4b24f038d5388042984e086W/Drgskl-punho-de-madeira-manual-navalha-de-barbear-super-afiada-cl-ssico-a-o-inoxid-vel.jpg_Q90.jpg_.webp" alt="Kit Navalha barbeiro" />
+        <p>Navalha de barbear clássica super afiada,aço inoxidável</p>
+        <h6>R$138.99</h6>
+        <button  onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product7" class="product-content">
+        <img src="https://images-americanas.b2w.io/produtos/01/00/img/1615382/9/1615382965_2GG.jpg" alt="Capa para corte" />
+        <p>Capa De Corte Barbershop</p>
+        <h6>R$120.49</h6>
+        <button  onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div id="product8" class="product-content">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_615036-MLB29221875578_012019-O.webp" alt="Kit Barbeiro" />
+        <p>Kit Barbearia Barbeiro Atacado Com Acessórios</p>
+        <h6>R$330.99</h6>
+        <button onclick="addProd()" value="adcionar ao carrinho">Adicionar ao carrinho</button>
+      </div>
+  </section>
+
+  <!-- SECTION-FORM -->
+  <section>
+    <div id="form-container">
+      <h1>Cadastre-se</h1>
+      <div id="content">
+        <form id="form">
+          <label>Nome completo</label><br>
+          <input type="name" placeholder="Ex: Igor Jesus" id="name"><br>
+          <label>Endereço</label><br>
+          <input type="text" placeholder="Ex: Rua MAria Isabel, 999" id="address"><br>
+          <label>Cidade/estado</label><br>
+          <input type="text" placeholder="Ex: Rio de Janeiro/RJ" id="city"><br>
+          <label>CPF ou CNPJ</label><br>
+          <input type="text" placeholder="Ex: 123.456.789-12" id="cpf"><br>
+          <label>Data de nascimento:</label><br>
+          <input type="date" name="date" id="date"><br>
+          <label>E-mail: </label><br>
+          <input type="email" placeholder="Ex: joaodasilva@gmail.com" id="email"><br>    
+          <label>Telefone: </label><br>
+          <input type="tel" placeholder="Ex: (99) 99999-9999" id="tel"><br>
+          <button class="button" type="submit" value="Criar cadastro">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Todos os direitos reservados.
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
